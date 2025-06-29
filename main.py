@@ -1,3 +1,3 @@
-from converter import save_timestamp
+from converter import save_eur_rate
 
-save_timestamp()
+save_eur_rate()
