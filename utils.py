@@ -1,0 +1,1 @@
+# napisać funkcję, która obetnie float do dwóch miejsc po przecinku
