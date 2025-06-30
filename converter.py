@@ -7,6 +7,9 @@ def get_rate(cur_code):
     currency_rate = response_currency.json()['rates'][0]["mid"]
     return currency_rate
 
+def exchange_amount(amount, currency_rate):
+    return amount / currency_rate
+
 def save_rate(currency_rate, cur_code):
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open('currency.csv', 'a', newline='') as csvfile:
