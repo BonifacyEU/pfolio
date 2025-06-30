@@ -1,3 +1,4 @@
-from converter import save_eur_rate
+from converter import save_rate
 
-save_eur_rate()
+currency = input('Enter currency code: ').upper()
+save_rate(currency)
